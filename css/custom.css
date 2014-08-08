@@ -1,0 +1,174 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+}
+
+.jumbotron {
+	text-align: right;
+	background-image: url('../images/me.jpg');
+	border-bottom: 5px solid rgb(82, 73, 73)
+}
+.jumbotron h1{
+	margin-bottom: 25px;
+	font-size:45px;
+}
+
+ul.nav{
+	font-size: 13px;
+}
+ul.nav, .jumbotron h1, .navbar-brand {
+	font-family: 'Arvo', serif;
+}
+
+
+.btn-lg{
+	font-size:22px;
+}
+.btn2 { 
+  color: #FFFFFF; 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn2:hover, 
+.btn2:focus, 
+.btn2:active, 
+.btn2.active, 
+.open .dropdown-toggle.btn2 { 
+  color: #FFFFFF; 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn2:active, 
+.btn2.active, 
+.open .dropdown-toggle.btn2 { 
+  background-image: none; 
+} 
+ 
+.btn2.disabled, 
+.btn2[disabled], 
+fieldset[disabled] .btn2, 
+.btn2.disabled:hover, 
+.btn2[disabled]:hover, 
+fieldset[disabled] .btn2:hover, 
+.btn2.disabled:focus, 
+.btn2[disabled]:focus, 
+fieldset[disabled] .btn2:focus, 
+.btn2.disabled:active, 
+.btn2[disabled]:active, 
+fieldset[disabled] .btn2:active, 
+.btn2.disabled.active, 
+.btn2[disabled].active, 
+fieldset[disabled] .btn2.active { 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn2 .badge { 
+  color: #000000; 
+  background-color: #FFFFFF; 
+}
+.navbar-brand{
+	font-size:19px;
+}
+
+ul {
+    overflow: auto;
+    float:right;
+
+}
+ 
+ul li {
+    list-style-type: none;
+    float: left;
+}
+ 
+ul li a i {
+	text-align:right;
+    background: #205D7A;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    background:#3b5998;
+} 
+.fa-linkedin {
+    background:#007bb6;
+}
+.fa-github {
+  background: black;
+}
+
+ul li a i:hover {
+    opacity: .7;
+}
+
+.homepage {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    padding-bottom:25px;
+}
+
+.homepage h2 {
+color: #e74c3c;
+text-transform: uppercase;
+font-size: 32px;
+padding-top: 25px;
+}
+
+.homepage p {
+font-size: 22px;
+font-weight: 300;
+}
+
+.homepage hr{
+    border-color:#e74c3c;
+    width: 160px;
+    margin-top:15px;
+    padding-bottom:15px;
+}
+
+.languages{
+color: #e74c3c;
+}
+.homepage a{
+
+color: #e74c3c;
+ 
+}
+.homepage a:hover{
+color: #e74c3c;
+text-decoration:none;
+opacity:0.8;
+}
+
+footer {
+    background-color: #f74c3c;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-family: 'Arvo', serif;
+    color:white;
+
+}
+
+footer a{
+    color: black;
+}
+footer a:hover{
+color: yellow;
+text-decoration:none;
+opacity:0.8;
+}
+
+#buttons{
+    margin-top:20px;
+}
