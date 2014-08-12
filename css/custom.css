@@ -173,6 +173,18 @@ opacity:0.8;
 }
 
 
+@media (max-width: 1199px) { 
+.jumbotron {
+    background-image: url('../images/me-tablet-big.jpg');
+  }
+}
+@media (max-width: 991px) { 
+
+.jumbotron {
+    background-image: url('../images/me-tablet.jpg');
+  }
+
+}
 @media (max-width: 767px) { 
 
 footer .container h1 {
@@ -227,16 +239,3 @@ ul li a i {
 
 }
 
-@media (max-width: 991px) { 
-
-.jumbotron {
-    background-image: url('../images/me-tablet.jpg');
-  }
-
-}
-
-@media (max-width: 1199px) { 
-.jumbotron {
-    background-image: url('../images/me-tablet-big.jpg');
-  }
-}
