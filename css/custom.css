@@ -98,6 +98,8 @@ ul li a i {
     padding-top: 15%;
     transition: all 0.2s ease-in-out;
 }
+
+.btn2
 .fa-linkedin {
     background:#007bb6;
 }
@@ -173,18 +175,23 @@ opacity:0.8;
 
 @media (max-width: 767px) { 
 
+footer .container h1 {
+  font-size:32px;
+}
 
-  .jumbotron {
+.jumbotron {
     background-image: url('../images/me-mobile.jpg');
-    text-align: left;
-    color: black;
-    font-size: 19px;
   }
 
 .jumbotron h1 {
-    font-size: 19px;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 22px;
   }
 
+.btn2 {
+  margin-bottom:5px;
+}
 
 .homepage h2 {
     font-size: 30px;
@@ -199,9 +206,8 @@ opacity:0.8;
   }
 
   ul {
+    margin-right:10px;
     overflow: auto;
-    float:left;
-
 }
  
   ul li {
@@ -210,18 +216,27 @@ opacity:0.8;
 }
  
 ul li a i {
-  text-align:left;
-    background: #205D7A;
-    color: #fff;
-    width: 30px;
-    height: 30px;
-    border-radius: 8px;
-    font-size: 20px;
+    text-align:right;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 30px;
     text-align: center;
-    margin-right: 6px;
-    padding-top: 15%;
-    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
 }
 
 }
 
+@media (max-width: 991px) { 
+
+.jumbotron {
+    background-image: url('../images/me-tablet.jpg');
+  }
+
+}
+
+@media (max-width: 1199px) { 
+.jumbotron {
+    background-image: url('../images/me-tablet-big.jpg');
+  }
+}
