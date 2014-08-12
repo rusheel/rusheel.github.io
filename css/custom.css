@@ -98,9 +98,6 @@ ul li a i {
     padding-top: 15%;
     transition: all 0.2s ease-in-out;
 }
-.fa-facebook {
-    background:#3b5998;
-} 
 .fa-linkedin {
     background:#007bb6;
 }
@@ -172,3 +169,59 @@ opacity:0.8;
 #buttons{
     margin-top:20px;
 }
+
+
+@media (max-width: 767px) { 
+
+
+  .jumbotron {
+    background-image: url('../images/me-mobile.jpg');
+    text-align: left;
+    color: black;
+    font-size: 19px;
+  }
+
+.jumbotron h1 {
+    font-size: 19px;
+  }
+
+
+.homepage h2 {
+    font-size: 30px;
+  }
+
+  .btn-lg {
+    font-size: 18px;
+  }
+
+  .homepage p {
+    font-size: 18px;
+  }
+
+  ul {
+    overflow: auto;
+    float:left;
+
+}
+ 
+  ul li {
+    list-style-type: none;
+    float: left;
+}
+ 
+ul li a i {
+  text-align:left;
+    background: #205D7A;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 6px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+}
+
