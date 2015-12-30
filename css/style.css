@@ -444,7 +444,7 @@ p.extend-details {
     transition: all .3s
 }
 .bg-contact {
-    background: url(../img/bg_about.png?1508011304) no-repeat center center;
+    background: url(../img/backdrop2.png) no-repeat center center;
     background-size: cover
 }
 .full-section-three {
@@ -906,7 +906,7 @@ header {
     color: #000;
 }
 #portfolio {
-    background: url("../img/bg_about.png") no-repeat center center;
+    background: url("../img/backdrop2.png") no-repeat center center;
     background-size: cover;
     padding-top: 40px;
     padding-bottom: 90px;
